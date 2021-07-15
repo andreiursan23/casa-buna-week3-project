@@ -8,6 +8,10 @@ main {
         text-align: center;
     }
 
+    h1 {
+        font-size: $font-xl;
+    }
+
     p {
         text-align: center;
     }
@@ -15,20 +19,37 @@ main {
     .top-container {
         flex-direction: column;
         flex-wrap: wrap;
-        height: 20rem;
-        background-color: $darkBlue;
-        
+        height: 22rem;
+        background-color: $lightYellow;
+
+        > p {
+            padding: 0 16.8rem;
+            color: $darkBlue;
+            font-weight: 700;
+        }
+
         h1,
         h2,
-        h3,
-        p {
-            color: $yellow;
+        h3 {
+            color: $darkBlue;
             margin: 1rem 0;
             padding: 0;
         }
 
-        a {
-            padding: 5px;
+        .button_top-container {
+            padding: 0.875rem 3rem;
+            background: linear-gradient(to right, $darkBlue, $lightCoral);
+            border-radius: 50px;
+            border: 1px solid $white;
+            color: $white;
+            cursor: pointer;
+            font-weight: 500;
+            transition: opacity 300ms ease-in-out;
+            text-align: center;
+
+            &:hover {
+                opacity: 0.75;
+            }
         }
     }
 
@@ -38,5 +59,39 @@ main {
         background-size: cover;
         height: 30rem;
         opacity: 0.9;
+    }
+
+    .activities {
+        background-color: $lightYellow;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: $darkBlue;
+            padding-top: 1rem;
+        }
+
+        .activity-boxes {
+            display: grid;
+            // gap: 4rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+            .activity-box {
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                background-color: $darkBlue;
+                padding: 2rem;
+                margin: 3rem;
+                border-radius: 1rem;
+
+                h4 {
+                    color: $lightYellow;
+                }
+            }
+        }
     }
 }

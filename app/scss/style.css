@@ -85,9 +85,8 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
   line-height: 1.3;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1.125rem;
   color: #090c19;
   background-color: #eff2fe;
@@ -135,10 +134,13 @@ button, .button {
   background: -webkit-gradient(linear, left top, right top, from(#2e3e7c), to(#f85b7c));
   background: linear-gradient(to right, #2e3e7c, #f85b7c);
   border-radius: 50px;
-  border: 1px solid #dfc252;
-  color: #dfc252;
+  border: 1px solid #f8d75b;
+  color: #f8d75b;
   cursor: pointer;
   font-weight: 500;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+  text-align: center;
 }
 
 button:hover, .button:hover {
@@ -278,6 +280,10 @@ main h4 {
   text-align: center;
 }
 
+main h1 {
+  font-size: 2.25rem;
+}
+
 main p {
   text-align: center;
 }
@@ -289,21 +295,40 @@ main .top-container {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 20rem;
-  background-color: #2e3e7c;
+  height: 22rem;
+  background-color: #f8d75b;
+}
+
+main .top-container > p {
+  padding: 0 16.8rem;
+  color: #2e3e7c;
+  font-weight: 700;
 }
 
 main .top-container h1,
 main .top-container h2,
-main .top-container h3,
-main .top-container p {
-  color: #dfc252;
+main .top-container h3 {
+  color: #2e3e7c;
   margin: 1rem 0;
   padding: 0;
 }
 
-main .top-container a {
-  padding: 5px;
+main .top-container .button_top-container {
+  padding: 0.875rem 3rem;
+  background: -webkit-gradient(linear, left top, right top, from(#2e3e7c), to(#f85b7c));
+  background: linear-gradient(to right, #2e3e7c, #f85b7c);
+  border-radius: 50px;
+  border: 1px solid #eff2fe;
+  color: #eff2fe;
+  cursor: pointer;
+  font-weight: 500;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+  text-align: center;
+}
+
+main .top-container .button_top-container:hover {
+  opacity: 0.75;
 }
 
 main .hero-photo {
@@ -312,5 +337,50 @@ main .hero-photo {
   background-size: cover;
   height: 30rem;
   opacity: 0.9;
+}
+
+main .activities {
+  background-color: #f8d75b;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .activities h1,
+main .activities h2,
+main .activities h3,
+main .activities h4 {
+  color: #2e3e7c;
+  padding-top: 1rem;
+}
+
+main .activities .activity-boxes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+main .activities .activity-boxes .activity-box {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2e3e7c;
+  padding: 2rem;
+  margin: 3rem;
+  border-radius: 1rem;
+}
+
+main .activities .activity-boxes .activity-box h4 {
+  color: #f8d75b;
 }
 /*# sourceMappingURL=style.css.map */

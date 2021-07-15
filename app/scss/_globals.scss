@@ -9,9 +9,8 @@ html {
 
 body {
     margin: 0;
-    padding: 0;
     line-height: 1.3;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: $font-med;
     color: $black;
     background-color: $white; 
@@ -53,10 +52,12 @@ button, .button {
     padding: 0.875rem 2.1875rem;
     background: linear-gradient(to right, $darkBlue, $lightCoral);
     border-radius: 50px;
-    border: 1px solid $yellow;
-    color: $yellow;
+    border: 1px solid $lightYellow;
+    color: $lightYellow;
     cursor: pointer;
     font-weight: 500;
+    transition: opacity 300ms ease-in-out;
+    text-align: center;
 
     &:hover {
         opacity: 0.75;
