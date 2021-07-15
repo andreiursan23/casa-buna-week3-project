@@ -53,10 +53,14 @@ button, .button {
     padding: 0.875rem 2.1875rem;
     background: linear-gradient(to right, $darkBlue, $lightCoral);
     border-radius: 50px;
-    border: 0;
+    border: 1px solid $yellow;
     color: $yellow;
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 500;
+
+    &:hover {
+        opacity: 0.75;
+    }
 }
 
 // Visibility

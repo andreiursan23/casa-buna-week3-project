@@ -135,10 +135,14 @@ button, .button {
   background: -webkit-gradient(linear, left top, right top, from(#2e3e7c), to(#f85b7c));
   background: linear-gradient(to right, #2e3e7c, #f85b7c);
   border-radius: 50px;
-  border: 0;
+  border: 1px solid #dfc252;
   color: #dfc252;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 500;
+}
+
+button:hover, .button:hover {
+  opacity: 0.75;
 }
 
 @media (max-width: 63.9375em) {
@@ -279,20 +283,34 @@ main p {
 }
 
 main .top-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../images/hero-photo.jpg);
-  height: 50rem;
-  background-size: cover;
-  background-position: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 20rem;
+  background-color: #2e3e7c;
 }
 
-main .top-container h3 {
-  text-align: center;
+main .top-container h1,
+main .top-container h2,
+main .top-container h3,
+main .top-container p {
+  color: #dfc252;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+main .top-container a {
+  padding: 5px;
+}
+
+main .hero-photo {
+  background-image: url(/app/images/hero-photo.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  opacity: 0.9;
 }
 /*# sourceMappingURL=style.css.map */

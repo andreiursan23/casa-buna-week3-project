@@ -13,19 +13,30 @@ main {
     }
 
     .top-container {
-        display: flex;
-        flex-direction: column;    
-        background-image: url(../images/hero-photo.jpg);
-        height: 50rem;
-        background-size: cover;
-        background-position: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 20rem;
+        background-color: $darkBlue;
         
-        h3 {
-            text-align: center;
+        h1,
+        h2,
+        h3,
+        p {
+            color: $yellow;
+            margin: 1rem 0;
+            padding: 0;
         }
 
-        .story {
-
+        a {
+            padding: 5px;
         }
+    }
+
+    .hero-photo {
+        background-image: url(/app/images/hero-photo.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 30rem;
+        opacity: 0.9;
     }
 }
