@@ -1,0 +1,31 @@
+main {
+    h1,
+    h2,
+    h3,
+    h4 {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .top-container {
+        display: flex;
+        flex-direction: column;    
+        background-image: url(../images/hero-photo.jpg);
+        height: 50rem;
+        background-size: cover;
+        background-position: center;
+        
+        h3 {
+            text-align: center;
+        }
+
+        .story {
+
+        }
+    }
+}

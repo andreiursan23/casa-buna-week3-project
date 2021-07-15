@@ -90,6 +90,7 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.125rem;
   color: #090c19;
+  background-color: #eff2fe;
 }
 
 body.noscroll {
@@ -262,5 +263,36 @@ button, .button {
 
 .header__cta:hover {
   opacity: 0.75;
+}
+
+main h1,
+main h2,
+main h3,
+main h4 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+main p {
+  text-align: center;
+}
+
+main .top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../images/hero-photo.jpg);
+  height: 50rem;
+  background-size: cover;
+  background-position: center;
+}
+
+main .top-container h3 {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
