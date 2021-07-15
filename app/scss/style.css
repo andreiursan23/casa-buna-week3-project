@@ -135,7 +135,7 @@ button, .button {
   background: linear-gradient(to right, #2e3e7c, #f85b7c);
   border-radius: 50px;
   border: 1px solid #f8d75b;
-  color: #f8d75b;
+  color: #fbe79d;
   cursor: pointer;
   font-weight: 500;
   -webkit-transition: opacity 300ms ease-in-out;
@@ -245,7 +245,7 @@ button:hover, .button:hover {
   height: 4px;
   left: 0;
   right: 0;
-  bottom: -30px;
+  bottom: -33px;
   background: -webkit-gradient(linear, left top, right top, from(#2e3e7c), to(#f85b7c));
   background: linear-gradient(to right, #2e3e7c, #f85b7c);
   opacity: 0;
@@ -303,7 +303,7 @@ main .top-container {
 main .top-container > p {
   padding: 0 16.8rem;
   color: #2e3e7c;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 main .top-container h1,
@@ -320,7 +320,7 @@ main .top-container .button_top-container {
   background: linear-gradient(to right, #2e3e7c, #f85b7c);
   border-radius: 50px;
   border: 1px solid #958137;
-  color: #dfc252;
+  color: #fbe79d;
   cursor: pointer;
   font-weight: 500;
   -webkit-transition: opacity 300ms ease-in-out;
@@ -351,17 +351,18 @@ main .activities {
       flex-wrap: wrap;
 }
 
+main .activities > p {
+  padding: 0 16.8rem;
+  color: #2e3e7c;
+  font-weight: 500;
+}
+
 main .activities h1,
 main .activities h2,
 main .activities h3,
 main .activities h4 {
   color: #2e3e7c;
   padding-top: 1rem;
-}
-
-main .activities > h4 {
-  padding-left: 16.8rem;
-  padding-right: 16.8rem;
 }
 
 main .activities > h1 {
@@ -387,6 +388,9 @@ main .activities .activity-boxes .activity-box {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #2e3e7c;
   padding: 2rem;
   margin: 3rem;
@@ -395,23 +399,38 @@ main .activities .activity-boxes .activity-box {
 
 main .activities .activity-boxes .activity-box h4 {
   color: #fbe79d;
+  font-size: 1.75rem;
 }
 
 main .activities .activity-boxes .activity-box > p {
-  color: #dfc252;
+  color: #fbe79d;
 }
 
 main .good-deeds-box {
   font-size: 1.75rem;
-  margin: 5rem 5rem;
+  margin: 3rem 3rem;
+}
+
+main .good-deeds-box h2 {
+  color: #2e3e7c;
+  padding: 2rem 0;
+}
+
+main .good-deeds-box p {
+  color: #fbe79d;
+  padding: 0 20rem;
 }
 
 main .good-deeds-box > div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 3rem;
-  background-color: lightcoral;
+  background-color: #f85b7c;
+  border-radius: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
