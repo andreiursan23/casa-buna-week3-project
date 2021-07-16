@@ -420,7 +420,7 @@ main .activities .activity-boxes .activity-box > p {
 
 main .good-deeds-box {
   font-size: 1.75rem;
-  margin: 1rem 1rem;
+  margin: 2.5% 2.5%;
 }
 
 main .good-deeds-box h2 {
@@ -575,7 +575,7 @@ main .blog-index .blog-boxes .blog-box-card {
   background-color: #2e3e7c;
   color: #fbe79d;
   padding: 2rem 0 0;
-  margin: 1rem;
+  margin: 2rem;
   border-radius: 1rem;
 }
 
