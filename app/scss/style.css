@@ -76,6 +76,7 @@ html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *, *::before, *::after {
@@ -145,6 +146,12 @@ button, .button {
 
 button:hover, .button:hover {
   opacity: 0.75;
+}
+
+.gotopbtn {
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
 }
 
 .box {
@@ -283,6 +290,10 @@ button:hover, .button:hover {
   opacity: 0.75;
 }
 
+.header__logo {
+  padding-right: 3.6875rem;
+}
+
 main h1,
 main h2,
 main h3,
@@ -309,7 +320,7 @@ main .top-container {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: auto;
-  background-color: #fbe79d;
+  background-color: #f8d75b;
 }
 
 main .top-container > p {
@@ -332,7 +343,7 @@ main .top-container .button_top-container {
   background: linear-gradient(to right, #2e3e7c, #f85b7c);
   border-radius: 50px;
   border: 1px solid #958137;
-  color: #fbe79d;
+  color: #f8d75b;
   cursor: pointer;
   font-weight: 500;
   -webkit-transition: opacity 300ms ease-in-out;
@@ -345,7 +356,7 @@ main .top-container .button_top-container:hover {
 }
 
 main .hero-photo {
-  background-image: url(/app/images/hero-photo.jpg);
+  background-image: url(master/app/images/hero-photo.jpg);
   background-position: center;
   background-size: cover;
   height: 30rem;
@@ -354,7 +365,7 @@ main .hero-photo {
 
 main .activities {
   padding-top: 2rem;
-  background-color: #fbe79d;
+  background-color: #f8d75b;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -410,17 +421,17 @@ main .activities .activity-boxes .activity-box {
 }
 
 main .activities .activity-boxes .activity-box h4 {
-  color: #fbe79d;
+  color: #f8d75b;
   font-size: 1.75rem;
 }
 
 main .activities .activity-boxes .activity-box > p {
-  color: #fbe79d;
+  color: #f8d75b;
 }
 
 main .good-deeds-box {
   font-size: 1.75rem;
-  margin: 2.5% 2.5%;
+  margin: 2.5% 6.1%;
 }
 
 main .good-deeds-box h2 {
@@ -429,7 +440,7 @@ main .good-deeds-box h2 {
 }
 
 main .good-deeds-box p {
-  color: #fbe79d;
+  color: #f8d75b;
   padding: 0 30%;
 }
 
@@ -448,7 +459,7 @@ main .good-deeds-box > div {
 
 main .numbers {
   padding-top: 2rem;
-  background-color: #fbe79d;
+  background-color: #f8d75b;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -518,12 +529,12 @@ main .numbers .numbers-boxes .numbers-box {
 }
 
 main .numbers .numbers-boxes .numbers-box h4 {
-  color: #fbe79d;
+  color: #f8d75b;
   font-size: 1.75rem;
 }
 
 main .numbers .numbers-boxes .numbers-box > p {
-  color: #fbe79d;
+  color: #f8d75b;
 }
 
 main .numbers-photo {
@@ -536,7 +547,7 @@ main .numbers-photo {
 
 main .blog-index {
   padding-top: 2rem;
-  background-color: #fbe79d;
+  background-color: #f8d75b;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -559,7 +570,7 @@ main .blog-index h1 {
 main .blog-index h4 {
   padding-top: 1rem;
   font-size: 2.25rem;
-  color: #fbe79d;
+  color: #f8d75b;
 }
 
 main .blog-index .blog-boxes {
@@ -573,7 +584,7 @@ main .blog-index .blog-boxes {
 
 main .blog-index .blog-boxes .blog-box-card {
   background-color: #2e3e7c;
-  color: #fbe79d;
+  color: #f8d75b;
   padding: 2rem 0 0;
   margin: 2rem;
   border-radius: 1rem;
