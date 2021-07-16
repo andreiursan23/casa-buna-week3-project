@@ -1,0 +1,56 @@
+footer {
+    background-color: $blackFooter;
+    color: $whiteFooter;
+
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        padding: 2rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid $whiteFooter;
+    }
+
+    .footer-col {
+        flex-direction: column;
+        margin: 0 1rem;
+    }
+
+    .shortcuts {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            text-decoration: none;
+            color: $whiteFooter;
+            margin-bottom: 0.2rem;
+            transition: opacity 200ms ease-in-out;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+
+    .links {
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        a {
+            padding: 1rem 0;
+            transition: opacity 200ms ease-in-out;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+    
+    > p {
+        padding: 1rem;
+        margin: 0;
+        text-align: center;
+    }
+}

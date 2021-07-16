@@ -115,7 +115,8 @@ main {
 
     .good-deeds-box {
         font-size: $font-lg;
-        margin: 2.5% 6.1%;
+        padding: 2.5% 6.1%;
+        background-color: $darkBlue;
 
         h2 {
             color: $darkBlue;

@@ -431,7 +431,8 @@ main .activities .activity-boxes .activity-box > p {
 
 main .good-deeds-box {
   font-size: 1.75rem;
-  margin: 2.5% 6.1%;
+  padding: 2.5% 6.1%;
+  background-color: #2e3e7c;
 }
 
 main .good-deeds-box h2 {
@@ -616,5 +617,85 @@ main .blog-index .blog-boxes .blog-box-card .blog-box-card-content .blog-box-car
   bottom: 0;
   width: calc(100% + var(--padding));
   background: #f85b7c;
+}
+
+footer {
+  background-color: #656565;
+  color: #E2E2E2;
+}
+
+footer .footer {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 2rem 0;
+  margin: 0 1rem;
+  border-bottom: 2px solid #E2E2E2;
+}
+
+footer .footer-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 1rem;
+}
+
+footer .shortcuts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .shortcuts a {
+  text-decoration: none;
+  color: #E2E2E2;
+  margin-bottom: 0.2rem;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+footer .shortcuts a:hover {
+  opacity: 0.5;
+}
+
+footer .links {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer .links a {
+  padding: 1rem 0;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+footer .links a:hover {
+  opacity: 0.5;
+}
+
+footer > p {
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
