@@ -51,10 +51,10 @@ a, a:visited, a:hover {
 // Buttons
 button, .button {
     padding: 0.875rem 2.1875rem;
-    background: linear-gradient(to right, $darkBlue, $lightCoral);
+    background: linear-gradient(to right, $lightYellow, $yellow);
     border-radius: 50px;
-    border: 1px solid $lightYellow;
-    color: $lightestYellow;
+    border: 2px solid $darkBlue;
+    color: $darkBlue;
     cursor: pointer;
     font-weight: 500;
     transition: opacity 300ms ease-in-out;

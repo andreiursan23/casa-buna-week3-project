@@ -89,8 +89,8 @@ body {
   line-height: 1.3;
   font-family: 'Rubik', sans-serif;
   font-size: 1.125rem;
-  color: #090c19;
-  background-color: #eff2fe;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 body.noscroll {
@@ -132,11 +132,11 @@ a, a:visited, a:hover {
 
 button, .button {
   padding: 0.875rem 2.1875rem;
-  background: -webkit-gradient(linear, left top, right top, from(#2e3e7c), to(#f85b7c));
-  background: linear-gradient(to right, #2e3e7c, #f85b7c);
+  background: -webkit-gradient(linear, left top, right top, from(#f8d75b), to(#F6CB2A));
+  background: linear-gradient(to right, #f8d75b, #F6CB2A);
   border-radius: 50px;
-  border: 1px solid #f8d75b;
-  color: #fbe79d;
+  border: 2px solid #14213D;
+  color: #14213D;
   cursor: pointer;
   font-weight: 500;
   -webkit-transition: opacity 300ms ease-in-out;
@@ -199,13 +199,13 @@ button:hover, .button:hover {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#dfc252), to(transparent));
-  background-image: linear-gradient(#dfc252, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F6CB2A), to(transparent));
+  background-image: linear-gradient(#F6CB2A, transparent);
 }
 
 .header nav {
   position: relative;
-  background-color: #eff2fe;
+  background-color: #e6e6e6;
   font-weight: 500;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
@@ -215,7 +215,7 @@ button:hover, .button:hover {
   display: block;
   width: 26px;
   height: 2px;
-  background-color: #dfc252;
+  background-color: #F6CB2A;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   -webkit-transform-origin: 3px 1px;
@@ -227,7 +227,7 @@ button:hover, .button:hover {
 }
 
 .header__menu {
-  background: #eff2fe;
+  background: #000000;
   margin-top: 1.56rem;
   padding: 1.625rem;
   border-radius: 5px;
@@ -240,7 +240,7 @@ button:hover, .button:hover {
 
 .header__menu a {
   display: block;
-  color: #dfc252;
+  color: #F6CB2A;
   padding: 0.625rem;
   text-align: center;
 }
@@ -248,7 +248,7 @@ button:hover, .button:hover {
 .header__links a {
   position: relative;
   font-size: 1.125rem;
-  color: #dfc252;
+  color: #000000;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
 }
@@ -265,15 +265,15 @@ button:hover, .button:hover {
   left: 0;
   right: 0;
   bottom: -33px;
-  background: -webkit-gradient(linear, left top, right top, from(#2e3e7c), to(#f85b7c));
-  background: linear-gradient(to right, #2e3e7c, #f85b7c);
+  background: -webkit-gradient(linear, left top, right top, from(#F6CB2A), to(#f8d75b));
+  background: linear-gradient(to right, #F6CB2A, #f8d75b);
   opacity: 0;
   -webkit-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
 }
 
 .header__links a:hover {
-  color: #958137;
+  color: #14213D;
 }
 
 .header__links a:hover::before {
@@ -320,30 +320,30 @@ main .top-container {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: auto;
-  background-color: #f8d75b;
+  background-color: #fcfcfc;
 }
 
 main .top-container > p {
   padding: 0 25%;
-  color: #2e3e7c;
+  color: #14213D;
   font-weight: 500;
 }
 
 main .top-container h1,
 main .top-container h2,
 main .top-container h3 {
-  color: #2e3e7c;
+  color: #14213D;
   margin: 1rem 0;
   padding: 0;
 }
 
 main .top-container .button_top-container {
   padding: 0.875rem 3rem;
-  background: -webkit-gradient(linear, left top, right top, from(#2e3e7c), to(#f85b7c));
-  background: linear-gradient(to right, #2e3e7c, #f85b7c);
+  background: -webkit-gradient(linear, left top, right top, from(#f8d75b), to(#F6CB2A));
+  background: linear-gradient(to right, #f8d75b, #F6CB2A);
   border-radius: 50px;
-  border: 1px solid #958137;
-  color: #f8d75b;
+  border: 2px solid #000000;
+  color: #000000;
   cursor: pointer;
   font-weight: 500;
   -webkit-transition: opacity 300ms ease-in-out;
@@ -356,7 +356,7 @@ main .top-container .button_top-container:hover {
 }
 
 main .hero-photo {
-  background-image: url(/app/images/hero-photo.jpg);
+  background-image: url(./app/images/hero-photo.jpg);
   background-position: center;
   background-size: cover;
   height: 30rem;
@@ -365,7 +365,7 @@ main .hero-photo {
 
 main .activities {
   padding-top: 2rem;
-  background-color: #f8d75b;
+  background-color: #e6e6e6;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -376,7 +376,7 @@ main .activities {
 
 main .activities > p {
   padding: 0 25%;
-  color: #2e3e7c;
+  color: #14213D;
   font-weight: 500;
 }
 
@@ -384,7 +384,7 @@ main .activities h1,
 main .activities h2,
 main .activities h3,
 main .activities h4 {
-  color: #2e3e7c;
+  color: #14213D;
   padding-top: 1rem;
 }
 
@@ -414,34 +414,34 @@ main .activities .activity-boxes .activity-box {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #2e3e7c;
+  background-color: #FFFFFF;
   padding: 2rem;
   margin: 3rem;
   border-radius: 1rem;
 }
 
 main .activities .activity-boxes .activity-box h4 {
-  color: #f8d75b;
+  color: #14213D;
   font-size: 1.75rem;
 }
 
 main .activities .activity-boxes .activity-box > p {
-  color: #f8d75b;
+  color: #14213D;
 }
 
 main .good-deeds-box {
   font-size: 1.75rem;
   padding: 2.5% 6.1%;
-  background-color: #2e3e7c;
+  background-color: #FFFFFF;
 }
 
 main .good-deeds-box h2 {
-  color: #2e3e7c;
+  color: #14213D;
   padding: 2rem 0;
 }
 
 main .good-deeds-box p {
-  color: #f8d75b;
+  color: #14213D;
   padding: 0 30%;
 }
 
@@ -454,7 +454,7 @@ main .good-deeds-box > div {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 3rem;
-  background-color: #f85b7c;
+  background-color: #e6e6e6;
   border-radius: 1rem;
 }
 
@@ -471,7 +471,7 @@ main .numbers {
 
 main .numbers > p {
   padding: 0 25%;
-  color: #2e3e7c;
+  color: #14213D;
   font-weight: 500;
 }
 
@@ -479,7 +479,7 @@ main .numbers h1,
 main .numbers h2,
 main .numbers h3,
 main .numbers h4 {
-  color: #2e3e7c;
+  color: #14213D;
   padding-top: 1rem;
 }
 
@@ -519,7 +519,7 @@ main .numbers .numbers-boxes .numbers-box {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #2e3e7c;
+  background-color: #14213D;
   padding: 2rem;
   margin: 2rem 0.7rem;
   border-radius: 50%;
@@ -539,7 +539,7 @@ main .numbers .numbers-boxes .numbers-box > p {
 }
 
 main .numbers-photo {
-  background-image: url(/app/images/numbers-photo.jpg);
+  background-image: url(./app/images/numbers-photo.jpg);
   background-position: center;
   background-size: cover;
   height: 34rem;
@@ -559,13 +559,13 @@ main .blog-index {
 
 main .blog-index > p {
   padding: 0 25%;
-  color: #2e3e7c;
+  color: #14213D;
   font-weight: 500;
 }
 
 main .blog-index h1 {
   font-size: 2.25rem;
-  color: #2e3e7c;
+  color: #14213D;
 }
 
 main .blog-index h4 {
@@ -584,7 +584,7 @@ main .blog-index .blog-boxes {
 }
 
 main .blog-index .blog-boxes .blog-box-card {
-  background-color: #2e3e7c;
+  background-color: #14213D;
   color: #f8d75b;
   padding: 2rem 0 0;
   margin: 2rem;
@@ -620,8 +620,8 @@ main .blog-index .blog-boxes .blog-box-card .blog-box-card-content .blog-box-car
 }
 
 footer {
-  background-color: #656565;
-  color: #E2E2E2;
+  background-color: red;
+  color: #FFFFFF;
 }
 
 footer .footer {
@@ -639,7 +639,7 @@ footer .footer {
           align-items: flex-end;
   padding: 2rem 0;
   margin: 0 1rem;
-  border-bottom: 2px solid #E2E2E2;
+  border-bottom: 2px solid #FFFFFF;
 }
 
 footer .footer-col {
@@ -662,7 +662,7 @@ footer .shortcuts {
 
 footer .shortcuts a {
   text-decoration: none;
-  color: #E2E2E2;
+  color: #FFFFFF;
   margin-bottom: 0.2rem;
   -webkit-transition: opacity 200ms ease-in-out;
   transition: opacity 200ms ease-in-out;

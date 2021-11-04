@@ -21,7 +21,7 @@ main {
         flex-direction: column;
         flex-wrap: wrap;
         height: auto;
-        background-color: $lightYellow;
+        background-color: $platinum;
 
         > p {
             padding: 0 25%;
@@ -39,10 +39,10 @@ main {
 
         .button_top-container {
             padding: 0.875rem 3rem;
-            background: linear-gradient(to right, $darkBlue, $lightCoral);
+            background: linear-gradient(to right, $lightYellow, $yellow);
             border-radius: 50px;
-            border: 1px solid $darkYellow;
-            color: $lightYellow;
+            border: 2px solid $black;
+            color: $black;
             cursor: pointer;
             font-weight: 500;
             transition: opacity 300ms ease-in-out;
@@ -64,7 +64,7 @@ main {
 
     .activities {
         padding-top: 2rem;
-        background-color: $lightYellow;
+        background-color: $darkGrey;
         flex-direction: column;
         flex-wrap: wrap;
 
@@ -96,18 +96,18 @@ main {
                 flex-wrap: wrap;
                 align-items: center;
                 justify-content: space-between;
-                background-color: $darkBlue;
+                background-color: $white;
                 padding: 2rem;
                 margin: 3rem;
                 border-radius: 1rem;
 
                 h4 {
-                    color: $lightYellow;
+                    color: $darkBlue;
                     font-size: $font-lg;
                 }
 
                 > p {
-                    color: $lightYellow;
+                    color: $darkBlue;
                 }
             }
         }
@@ -116,7 +116,7 @@ main {
     .good-deeds-box {
         font-size: $font-lg;
         padding: 2.5% 6.1%;
-        background-color: $darkBlue;
+        background-color: $white;
 
         h2 {
             color: $darkBlue;
@@ -124,7 +124,7 @@ main {
         }
 
         p {
-            color: $lightYellow;
+            color: $darkBlue;
             padding: 0 30%;
         }
 
@@ -132,7 +132,7 @@ main {
             align-items: center;
             flex-direction: column;
             padding: 3rem;
-            background-color: $lightCoral;
+            background-color: $darkGrey;
             border-radius: 1rem;
         }
     }

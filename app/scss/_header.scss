@@ -30,7 +30,7 @@
 
     nav {
         position: relative;
-        background-color: $white;
+        background-color: $darkGrey;
         font-weight: 500;
         padding-top: 1.0625rem;
         padding-bottom: 1.0625rem;
@@ -53,7 +53,7 @@
     }
 
     &__menu {
-        background: $white;
+        background: $black;
         margin-top: 1.56rem;
         padding: 1.625rem;
         border-radius: 5px;
@@ -75,7 +75,7 @@
         a {
             position: relative;
             font-size: $font-med;
-            color: $yellow;
+            color: $black;
             transition: color 300ms ease-in-out;
 
             &:not(:last-child) {
@@ -90,13 +90,13 @@
                 left: 0;
                 right: 0;
                 bottom: -33px;
-                background: linear-gradient(to right, $darkBlue, $lightCoral);
+                background: linear-gradient(to right, $yellow, $lightYellow);
                 opacity: 0;
                 transition: opacity 300ms ease-in-out;
             }
 
             &:hover {
-                color: $darkYellow;
+                color: $darkBlue;
 
                 &::before {
                     opacity: 1;
